@@ -1,0 +1,53 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+"macOS Normal Select.cur"
+"macOS Help Select.cur"
+"macOS Working in Background.ani"
+"macOS Busy.ani"
+"macOS Precision Select.cur"
+"macOS Text Select.cur"
+"macOS Handwriting.cur"
+"macOS Unavailable.cur"
+"macOS Vertical Resize.cur"
+"macOS Horizontal Resize.cur"
+"macOS Diagonal Resize 1.cur"
+"macOS Diagonal Resize 2.cur"
+"macOS Move.cur"
+"macOS Alternate Select.cur"
+"macOS Link Select.cur"
+"macOS Location Select.cur"
+"macOS Person Select.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\macOS"
+SCHEME_NAME     = "macOS - Pinkulani"
+pointer		= "macOS Normal Select.cur"
+help		= "macOS Help Select.cur"
+work		= "macOS Working in Background.ani"
+busy		= "macOS Busy.ani"
+cross		= "macOS Precision Select.cur"
+text		= "macOS Text Select.cur"
+hand		= "macOS Handwriting.cur"
+unavailiable	= "macOS Unavailable.cur"
+vert		= "macOS Vertical Resize.cur"
+horz		= "macOS Horizontal Resize.cur"
+dgn1		= "macOS Diagonal Resize 1.cur"
+dgn2		= "macOS Diagonal Resize 2.cur"
+move		= "macOS Move.cur"
+alternate	= "macOS Alternate Select.cur"
+link		= "macOS Link Select.cur"
+pin             = "macOS Location Select.cur"
+person          = "macOS Person Select.cur"
