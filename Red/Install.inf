@@ -1,0 +1,53 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+"Windows Normal Select.cur"
+"Windows Help Select.cur"
+"Windows Working in Background.ani"
+"Windows Busy.ani"
+"Windows Precision Select.cur"
+"Windows Text Select.cur"
+"Windows Handwriting.cur"
+"Windows Unavailable.cur"
+"Windows Vertical Resize.cur"
+"Windows Horizontal Resize.cur"
+"Windows Diagonal Resize 1.cur"
+"Windows Diagonal Resize 2.cur"
+"Windows Move.cur"
+"Windows Alternate Select.cur"
+"Windows Link Select.cur"
+"Windows Location Select.cur"
+"Windows Person Select.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Windows Red"
+SCHEME_NAME     = "Windows Red - Pinkulani"
+pointer		= "Windows Normal Select.cur"
+help		= "Windows Help Select.cur"
+work		= "Windows Working in Background.ani"
+busy		= "Windows Busy.ani"
+cross		= "Windows Precision Select.cur"
+text		= "Windows Text Select.cur"
+hand		= "Windows Handwriting.cur"
+unavailiable	= "Windows Unavailable.cur"
+vert		= "Windows Vertical Resize.cur"
+horz		= "Windows Horizontal Resize.cur"
+dgn1		= "Windows Diagonal Resize 1.cur"
+dgn2		= "Windows Diagonal Resize 2.cur"
+move		= "Windows Move.cur"
+alternate	= "Windows Alternate Select.cur"
+link		= "Windows Link Select.cur"
+pin             = "Windows Location Select.cur"
+person          = "Windows Person Select.cur"
